@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install snapd -y
+apt install -y snapd
 snap install core
 snap install ubuntu-frame mesa-core20 ubuntu-frame-osk wpe-webkit-mir-kiosk
 snap set wpe-webkit-mir-kiosk url=http://10.250.10.45/login.aspx?lang=ROM
