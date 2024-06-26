@@ -1,4 +1,7 @@
 #!/bin/bash
+apt update
+apt full-upgrade -y
+apt autoremove -y
 apt install -y snapd
 snap install core
 snap install ubuntu-frame mesa-core20 ubuntu-frame-osk wpe-webkit-mir-kiosk
